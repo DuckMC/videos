@@ -1,6 +1,7 @@
 
 
 
+
 <!doctype html>
 <html lang="nl">
 
@@ -28,19 +29,68 @@ padding: 15px;
 cursor: pointer;
 font-weight: bold;
 font-size: 150%;
-background: #338073;
-color: #fff;
-border: 1px solid #3366cc;
+background: #f6ff00;
+color: #000000;
+border: 1px solid #d8e300;
 border-radius: 40px;
 -moz-box-shadow:: 6px 6px 5px #999;
 -webkit-box-shadow:: 6px 6px 5px #999;
 box-shadow:: 6px 6px 5px #999;
 }
 input.MyButton:hover {
-color: #bcd4d0;
-background: #3ca392;
-border: 1px solid #fff;
-}</style>
+color: #383838;
+background: #f9ff5c;
+border: 1px solid #d8e300;
+}
+
+input.MyButtonYT {
+width: 300px;
+padding: 15px;
+cursor: pointer;
+font-weight: bold;
+font-size: 150%;
+background: #ff0000;
+color: #fff;
+border: 1px solid #b30000;
+border-radius: 40px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+}
+input.MyButtonYT:hover {
+color: #gray;
+background: #ff1a1a;
+border: 1px solid #b30000;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 440px;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+
+</style>
  
 <script src="https://kit.fontawesome.com/3333fb2930.js" crossorigin="anonymous"></script>
 
@@ -56,7 +106,7 @@ border: 1px solid #fff;
                     <a class="nav-link link-black" href="https://DuckMC.github.io/minigames/">Games</a>
                 </li>
                 <li class="nav-item mr-3 ">
-                    <a class="nav-link link-black" href="https://DuckMC.github.io/videos/">Videos</a>
+                    <a class="nav-link link-black" href="https://DuckMC.github.io/videos/">Content</a>
                 </li>
                 <li class="nav-item mr-3 1">
                     <a class="nav-link link-black" href="https://DuckMC.github.io/contact/">Contact</a>
@@ -72,7 +122,7 @@ border: 1px solid #fff;
 <!-- Loading Bar End -->
 <div id="home"></div>
 <!-- Header Section Start -->
-<div class="gradient-1 d-flex align-items-center relative" style="height: 672px;">
+<div class="gradient-1 d-flex align-items-center relative" style="height: 82px;">
     <div class="circle-shape">
         <div class="dot c1 c100"></div>
         <div class="dot c2 c53"></div>
@@ -111,7 +161,7 @@ border: 1px solid #fff;
                     <a class="nav-link" href="https://DuckMC.github.io/minigames/">Games</a>
                 </li>
                 <li class="nav-item mr-3 ">
-                    <a class="nav-link" href="https://DuckMC.github.io/videos/">Videos</a>
+                    <a class="nav-link" href="https://DuckMC.github.io/videos/">Content</a>
                 </li>
                 <li class="nav-item mr-3 1">
                     <a class="nav-link" href="https://DuckMC.github.io/contact/">Contact</a>
@@ -122,20 +172,155 @@ border: 1px solid #fff;
 </div>    </div>
     <div class="container align-items-center">
         <div class="row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
-            <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-lg-0 pr-lg-5 pr-xl-0">
-                <h3 class="h1 display-3 text-white font-weight-700 mb-3" style="line-height: 1;">DUCKMC Videos</h3>
-                <p class="font-20 text-white mb-4 font-weight-600">Een minecraft 1.9 t/m 1.12.2 Training, PVP en Minigames server network!</p>
-            </div>
-            <div class="col-md-9 col-lg-6 d-none d-lg-block">
-                <img src="https://i.gifer.com/nS1.gif" alt="DonaldDuck Skin Render" class="w-65">
-            </div>
+
+
             </div>
         </div>
     </div>
 </div>
-</form>
+<br>
+            <div class="row align-items-center justify-content-around text-center text-lg-center">
+                <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
+                    <div>
+                        <h3 class="h2 font-weight-700 mb-4"><br>Duckpraat</h3>
+                        <p class="lead">DuckPraat is een account op instagram met meer dan 500+ volgers! Elke week vind je op het account 2 grappige, leuke en interesante grappen of quotes. Met gemiddelde van 73 likes per post en bijna 900 likes in totaal. Neem een kijkje en geniet van de grappen van onze vrolijke matrozen vriend.
+
 <br>
 
+
+</p>
+
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-9 col-lg-6 col-xl-5 order-lg-1 text-center">
+                    <a href="https://www.instagram.com/duckpraat/?hl=nl-ca" target="_blank"> <div class="image-box">
+  <img src="https://i.imgur.com/EmwzSpQ.png" alt="Instagram: Duckpraat" width="340" height="348" /></a>
+</div>
+                    <a href="https://www.instagram.com/duckpraat/?hl=nl-ca" target="_blank"><br><input class="MyButton" type="button" value="BEKIJK OP INSTAGRAM" onclick="AdvancedCopy()"></a>                    <a href="https://www.instagram.com/duckpraat/?hl=nl-ca" target="_blank"><br>
+</a>
+                </div>
+            </div>
+        </div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<br>
+            <div class="row align-items-center justify-content-around text-center text-lg-center">
+                <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
+                    <div>
+                        <h3 class="h2 font-weight-700 mb-4"><br>Wesleyiscool Games</h3>
+                        <p class="lead">Wesleyiscool Games is een minecraft youtube kanaal. Je vindt op het kanaal video´s van onderandere games op hypixel, cubecraft en natuurlijk DuckMC! Het kanaal heeft al meer dan 100+ abonnees. Er is geen upload schema dus zorg dat je geaboneerd bent met het belletje aan!<br>
+<br>
+
+
+</p>
+
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-9 col-lg-6 col-xl-5 order-lg-1 text-center">
+                    <a href="https://www.youtube.com/watch?v=dfIpibdSPts" target="_blank"> <div class="image-box">
+  <img src="https://i.imgur.com/YKAnBHU.png" alt="Youtube: WesleyiscoolGames" width="340" height="348" /></a>
+</div>
+                    <a href="https://www.youtube.com/watch?v=dfIpibdSPts" target="_blank"><br><input class="MyButtonYT" type="button" value="BEKIJK OP YOUTUBE" onclick="AdvancedCopy()"></a>
+                </div>
+            </div>
+        </div>
+</div>
+<br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+<!-- All JS Here -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- jQuery Latest Version -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"></script>
+<!-- Plugins JS -->
+<script>
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+
+/*
+    Ripple - jQuery
+---------------------------*/
+$(".ripple-btn").click(function(a){var i=$(this);0==i.find(".material-ink").length&&i.prepend("<div class='material-ink'></div>");var t=i.find(".material-ink");if(t.removeClass("animate"),!t.height()&&!t.width()){var e=Math.max(i.outerWidth(),i.outerHeight());t.css({height:e,width:e})}var r=a.pageX-i.offset().left-t.width()/2,h=a.pageY-i.offset().top-t.height()/2,l=i.data("ripple-color");t.css({top:h+"px",left:r+"px",background:l}).addClass("animate")});
+</script>
+<!-- main JS -->
+<script>
+(function ($) {
+ "use strict";
+
+    /*
+    STICKY
+    ================================== */
+    var WinD = $(window);
+    WinD.on('scroll',function() {
+        var AcSticky = $('#active-sticky');
+        var scroll = $(window).scrollTop();
+        var AESticky = AcSticky;
+        if (scroll < 245) {
+            AESticky.removeClass("is-sticky , gradient-1");
+        }
+        else{
+            AESticky.addClass("is-sticky , gradient-1");
+        }
+        return false;
+    });
+
+})(jQuery);
+</script>
+
+
+<!-- Styles -->
+<script>
+const toast = swal.mixin({
+    toast: true,
+    position: 'top',
+    showConfirmButton: false,
+});
+</script>
+
+<script>
+            Lang.setLocale('nl');
+    </script>
+
+    
+    <script>
+        $('.toggle-nav').click(function() {
+            $('.mobile-nav').toggle();
+        });
+    </script>
+    
 <script>
 function myFunction() {
   alert("Het ip is succesvol gekopierd!");
@@ -201,121 +386,50 @@ function AdvancedCopy(){
      }
 }
 </script>
-                    
-                    </div>
-                </div>
-            </div>
-
-
-    <section class="bg-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-around text-center text-lg-left">
-                <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0 pl-lg-5 pl-xl-0">
-                    <div>
-                        <h3 class="h1 font-weight-700 mb-4">VIDEOS:</h3>
-
-<h4>- Beste potje ooit in One In The Chamber?!?</h4>
-<iframe width="430" height="245" src="https://www.youtube.com/embed/YhH5Yd_J8mY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-
-<h4><br>- Oud en nieuw Special (DuckMC)</h4>
-<iframe width="430" height="245" src="https://www.youtube.com/embed/5Vn6R_osLO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p class="lead"><a href=""></a></p>
-                        <p class="lead"><a href="https://youtu.be/YhH5Yd_J8mY"></a></p>     
-<h4>- Binnenkort komen er meer video's!</h4>
-<h4>- Binnenkort komen er meer video's!</h4>
-<h4>- Binnenkort komen er meer video's!</h4>
-<h4>- Binnenkort komen er meer video's!</h4>
-                    </div>
-                </div>
-                <div class="col-md-9 col-lg-6 col-xl-5 order-lg-1 text-center">
-                    <img class="m-2 img-fluid w-70" src="https://i.dlpng.com/static/png/5491159-youtube-png-icons-and-youtube-logo-png-transparent-images-free-youtube-logopng-360_360_preview.png">
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- All JS Here -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<!-- jQuery Latest Version -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"></script>
-<!-- Plugins JS -->
 <script>
-// Avoid `console` errors in browsers that lack a console.
-(function() {
-    var method;
-    var noop = function () {};
-    var methods = [
-        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
-        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
-        'timeline', 'timelineEnd', 'timeStamp', 'trace', 'warn'
-    ];
-    var length = methods.length;
-    var console = (window.console = window.console || {});
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
 
-    while (length--) {
-        method = methods[length];
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
 
-        // Only stub undefined methods.
-        if (!console[method]) {
-            console[method] = noop;
-        }
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
     }
-}());
+  }
+  element.className = arr1.join(" ");
+}
 
-/*
-	Ripple - jQuery
----------------------------*/
-$(".ripple-btn").click(function(a){var i=$(this);0==i.find(".material-ink").length&&i.prepend("<div class='material-ink'></div>");var t=i.find(".material-ink");if(t.removeClass("animate"),!t.height()&&!t.width()){var e=Math.max(i.outerWidth(),i.outerHeight());t.css({height:e,width:e})}var r=a.pageX-i.offset().left-t.width()/2,h=a.pageY-i.offset().top-t.height()/2,l=i.data("ripple-color");t.css({top:h+"px",left:r+"px",background:l}).addClass("animate")});
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
 </script>
-<!-- main JS -->
-<script>
-(function ($) {
- "use strict";
-
-	/*
-	STICKY
-	================================== */
-	var WinD = $(window);
-	WinD.on('scroll',function() {
-		var AcSticky = $('#active-sticky');
-		var scroll = $(window).scrollTop();
-		var AESticky = AcSticky;
-		if (scroll < 245) {
-			AESticky.removeClass("is-sticky , gradient-1");
-		}
-		else{
-			AESticky.addClass("is-sticky , gradient-1");
-		}
-		return false;
-	});
-
-})(jQuery);
-</script>
-
-
-<!-- Styles -->
-<script>
-const toast = swal.mixin({
-    toast: true,
-    position: 'top',
-    showConfirmButton: false,
-});
-</script>
-
-<script>
-            Lang.setLocale('nl');
-    </script>
-
-    
-    <script>
-        $('.toggle-nav').click(function() {
-            $('.mobile-nav').toggle();
-        });
-    </script>
-<center><p>Copyright DuckMC 2020</p></center>
 </body>
-
+<center><p>Copyright DuckMC 2020</p></center>
 </html>
